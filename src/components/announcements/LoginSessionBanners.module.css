@@ -1,0 +1,26 @@
+/* Local scrollbar for banner body only */
+
+.contentScroll {
+  scrollbar-width: thin;
+  scrollbar-color: #c9a227 #fdf9f2;
+}
+
+.contentScroll::-webkit-scrollbar {
+  width: 12px;
+}
+
+.contentScroll::-webkit-scrollbar-track {
+  background: #fdf9f2;
+}
+
+.contentScroll::-webkit-scrollbar-thumb {
+  background: #c9a227;
+}
+
+.contentScroll::-webkit-scrollbar-thumb:hover {
+  background: #8a6420;
+}
+
+.contentScroll::-webkit-scrollbar-corner {
+  background: #fdf9f2;
+}
